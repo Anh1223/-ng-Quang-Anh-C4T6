@@ -69,7 +69,7 @@ while True:
             if _ == "color":
                 turtlelist.color(input("What color?"))
             elif _ == "shape":
-                turtle.shape(input("The shape to be changed"))
+                turtlelist.shape(input("The shape to be changed"))
             else :
                 print("What?")
                 print("I don't can read")
