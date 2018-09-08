@@ -628,7 +628,7 @@ def cottruyen(nameplayer, nameBot1, loai_Zombie_tq):
                     print("Ở đó có:", max(soluongzombie) + 1, "con Zombie")
                     for slzb in soluongzombie:
                         spawn = randint(0, 2)
-                        tinh_combat(nameplayer, nameBot1, loai_Zombie_tq[spawn], traloicauhoi_dokho_tq)
+                        tinh_combat(nameplayer, nameBot1, loai_Zombie_tq[spawn], traloicauhoi_dokho)
                 elif dichuen == "2":
                     print("Vì bạn đã đi ra khỏi nơi an toàn nên có rất nhiều Zombie xung quanh bạn bạn")
                     soluongzombie = range(randint(10, 20))
