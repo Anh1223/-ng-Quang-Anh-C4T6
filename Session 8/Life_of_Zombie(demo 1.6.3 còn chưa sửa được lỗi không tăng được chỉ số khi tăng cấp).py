@@ -747,7 +747,7 @@ def cottruyen(nameplayer, nameBot1, loai_Zombie_tq):
                     print("không sống nổi đâu lên xác định đi")
                     for slzb in soluongzombie:
                         tinh_combat_khongcoBot(player, loai_Zombie_tq[spawn], traloicauhoi_dokho, spawn)
-                    print("Bây giờ bạn bị coi là mối đe dọa đạc biệt nguy hiểm và .....................................")
+                    print("Bây giờ bạn bị coi là mối đe dọa đặc biệt nguy hiểm và .....................................")
                     print("Continue")
 
 
